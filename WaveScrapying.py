@@ -78,7 +78,7 @@ import MySQLdb
 
 # メールアドレスとパスワードの指定
 USER = "shunta9494shunta@gmail.com"
-PASS = "rikujyou94"
+PASS = "#########"
 #PASS = getpass.getpass('input your password: ')
 
 # セッションを開始
@@ -181,7 +181,7 @@ for chibaN_num in list_chibaN_num:
     # 接続する
     conn = MySQLdb.connect(
     user='shunta01',
-    passwd='rikujyou',
+    passwd='%%%%%%%%%',
     host='localhost',
     db='wave_info')
 
